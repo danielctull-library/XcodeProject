@@ -24,6 +24,47 @@
 		24314E9E24D7568600B06F9C /* xXxprojectxXx macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xXxprojectxXx macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24314EA024D7568600B06F9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24314EA124D7568600B06F9C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		24ABECC125600CDC003514FF /* generate-version.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "generate-version.sh"; sourceTree = "<group>"; };
+		24ABECC325600CDC003514FF /* SPM Package Description.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "SPM Package Description.xcconfig"; sourceTree = "<group>"; };
+		24ABECC525600CDC003514FF /* macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = macOS.xcconfig; sourceTree = "<group>"; };
+		24ABECC625600CDC003514FF /* macOS Command Line Tool.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS Command Line Tool.xcconfig"; sourceTree = "<group>"; };
+		24ABECC725600CDC003514FF /* macOS UI Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS UI Tests.xcconfig"; sourceTree = "<group>"; };
+		24ABECC825600CDC003514FF /* macOS Static Library.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS Static Library.xcconfig"; sourceTree = "<group>"; };
+		24ABECC925600CDC003514FF /* macOS Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS Application.xcconfig"; sourceTree = "<group>"; };
+		24ABECCA25600CDC003514FF /* macOS Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS Tests.xcconfig"; sourceTree = "<group>"; };
+		24ABECCB25600CDC003514FF /* macOS Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS Framework.xcconfig"; sourceTree = "<group>"; };
+		24ABECCC25600CDC003514FF /* macOS Extension.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "macOS Extension.xcconfig"; sourceTree = "<group>"; };
+		24ABECCE25600CDC003514FF /* watchOS Extension.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS Extension.xcconfig"; sourceTree = "<group>"; };
+		24ABECCF25600CDC003514FF /* watchOS Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS Application.xcconfig"; sourceTree = "<group>"; };
+		24ABECD025600CDC003514FF /* watchOS Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS Framework.xcconfig"; sourceTree = "<group>"; };
+		24ABECD125600CDC003514FF /* watchOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = watchOS.xcconfig; sourceTree = "<group>"; };
+		24ABECD225600CDC003514FF /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		24ABECD325600CDC003514FF /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		24ABECD525600CDC003514FF /* Shared Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Shared Tests.xcconfig"; sourceTree = "<group>"; };
+		24ABECD625600CDC003514FF /* Shared Static Library.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Shared Static Library.xcconfig"; sourceTree = "<group>"; };
+		24ABECD725600CDC003514FF /* Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
+		24ABECD825600CDC003514FF /* Shared Tests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Shared Tests.plist"; sourceTree = "<group>"; };
+		24ABECD925600CDC003514FF /* Shared Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Shared Framework.xcconfig"; sourceTree = "<group>"; };
+		24ABECDA25600CDC003514FF /* Shared Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Shared Application.xcconfig"; sourceTree = "<group>"; };
+		24ABECDB25600CDC003514FF /* Shared Framework.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Shared Framework.plist"; sourceTree = "<group>"; };
+		24ABECDC25600CDC003514FF /* Shared UI Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Shared UI Tests.xcconfig"; sourceTree = "<group>"; };
+		24ABECDD25600CDC003514FF /* Shared Extension.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Shared Extension.xcconfig"; sourceTree = "<group>"; };
+		24ABECDF25600CDC003514FF /* iOS UI Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS UI Tests.xcconfig"; sourceTree = "<group>"; };
+		24ABECE025600CDC003514FF /* iOS Static Library.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Static Library.xcconfig"; sourceTree = "<group>"; };
+		24ABECE125600CDC003514FF /* iOS Extension.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Extension.xcconfig"; sourceTree = "<group>"; };
+		24ABECE225600CDC003514FF /* iOS Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Application.xcconfig"; sourceTree = "<group>"; };
+		24ABECE325600CDC003514FF /* iOS Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Tests.xcconfig"; sourceTree = "<group>"; };
+		24ABECE425600CDC003514FF /* iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = iOS.xcconfig; sourceTree = "<group>"; };
+		24ABECE525600CDC003514FF /* iOS Application.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS Application.plist"; sourceTree = "<group>"; };
+		24ABECE625600CDC003514FF /* iOS Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Framework.xcconfig"; sourceTree = "<group>"; };
+		24ABECE725600CDC003514FF /* iOS Bundle.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Bundle.xcconfig"; sourceTree = "<group>"; };
+		24ABECE825600CDC003514FF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		24ABECEA25600CDC003514FF /* tvOS Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS Application.xcconfig"; sourceTree = "<group>"; };
+		24ABECEB25600CDC003514FF /* tvOS Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS Framework.xcconfig"; sourceTree = "<group>"; };
+		24ABECEC25600CDC003514FF /* tvOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = tvOS.xcconfig; sourceTree = "<group>"; };
+		24ABECED25600CDC003514FF /* tvOS Extension.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS Extension.xcconfig"; sourceTree = "<group>"; };
+		24ABECEE25600CDC003514FF /* tvOS UI Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS UI Tests.xcconfig"; sourceTree = "<group>"; };
+		24ABECEF25600CDC003514FF /* tvOS Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS Tests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +88,7 @@
 		24314E8924D7568400B06F9C = {
 			isa = PBXGroup;
 			children = (
+				24ABECC025600CDC003514FF /* Configurations */,
 				24314E8E24D7568400B06F9C /* Shared */,
 				24314E9824D7568600B06F9C /* iOS */,
 				24314E9F24D7568600B06F9C /* macOS */,
@@ -96,6 +138,102 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24ABECC025600CDC003514FF /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				24ABECC125600CDC003514FF /* generate-version.sh */,
+				24ABECC225600CDC003514FF /* SPM */,
+				24ABECC425600CDC003514FF /* macOS */,
+				24ABECCD25600CDC003514FF /* watchOS */,
+				24ABECD225600CDC003514FF /* Debug.xcconfig */,
+				24ABECD325600CDC003514FF /* Release.xcconfig */,
+				24ABECD425600CDC003514FF /* Shared */,
+				24ABECDE25600CDC003514FF /* iOS */,
+				24ABECE825600CDC003514FF /* .gitignore */,
+				24ABECE925600CDC003514FF /* tvOS */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		24ABECC225600CDC003514FF /* SPM */ = {
+			isa = PBXGroup;
+			children = (
+				24ABECC325600CDC003514FF /* SPM Package Description.xcconfig */,
+			);
+			path = SPM;
+			sourceTree = "<group>";
+		};
+		24ABECC425600CDC003514FF /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				24ABECC525600CDC003514FF /* macOS.xcconfig */,
+				24ABECC625600CDC003514FF /* macOS Command Line Tool.xcconfig */,
+				24ABECC725600CDC003514FF /* macOS UI Tests.xcconfig */,
+				24ABECC825600CDC003514FF /* macOS Static Library.xcconfig */,
+				24ABECC925600CDC003514FF /* macOS Application.xcconfig */,
+				24ABECCA25600CDC003514FF /* macOS Tests.xcconfig */,
+				24ABECCB25600CDC003514FF /* macOS Framework.xcconfig */,
+				24ABECCC25600CDC003514FF /* macOS Extension.xcconfig */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		24ABECCD25600CDC003514FF /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				24ABECCE25600CDC003514FF /* watchOS Extension.xcconfig */,
+				24ABECCF25600CDC003514FF /* watchOS Application.xcconfig */,
+				24ABECD025600CDC003514FF /* watchOS Framework.xcconfig */,
+				24ABECD125600CDC003514FF /* watchOS.xcconfig */,
+			);
+			path = watchOS;
+			sourceTree = "<group>";
+		};
+		24ABECD425600CDC003514FF /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				24ABECD525600CDC003514FF /* Shared Tests.xcconfig */,
+				24ABECD625600CDC003514FF /* Shared Static Library.xcconfig */,
+				24ABECD725600CDC003514FF /* Shared.xcconfig */,
+				24ABECD825600CDC003514FF /* Shared Tests.plist */,
+				24ABECD925600CDC003514FF /* Shared Framework.xcconfig */,
+				24ABECDA25600CDC003514FF /* Shared Application.xcconfig */,
+				24ABECDB25600CDC003514FF /* Shared Framework.plist */,
+				24ABECDC25600CDC003514FF /* Shared UI Tests.xcconfig */,
+				24ABECDD25600CDC003514FF /* Shared Extension.xcconfig */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		24ABECDE25600CDC003514FF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				24ABECDF25600CDC003514FF /* iOS UI Tests.xcconfig */,
+				24ABECE025600CDC003514FF /* iOS Static Library.xcconfig */,
+				24ABECE125600CDC003514FF /* iOS Extension.xcconfig */,
+				24ABECE225600CDC003514FF /* iOS Application.xcconfig */,
+				24ABECE325600CDC003514FF /* iOS Tests.xcconfig */,
+				24ABECE425600CDC003514FF /* iOS.xcconfig */,
+				24ABECE525600CDC003514FF /* iOS Application.plist */,
+				24ABECE625600CDC003514FF /* iOS Framework.xcconfig */,
+				24ABECE725600CDC003514FF /* iOS Bundle.xcconfig */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		24ABECE925600CDC003514FF /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				24ABECEA25600CDC003514FF /* tvOS Application.xcconfig */,
+				24ABECEB25600CDC003514FF /* tvOS Framework.xcconfig */,
+				24ABECEC25600CDC003514FF /* tvOS.xcconfig */,
+				24ABECED25600CDC003514FF /* tvOS Extension.xcconfig */,
+				24ABECEE25600CDC003514FF /* tvOS UI Tests.xcconfig */,
+				24ABECEF25600CDC003514FF /* tvOS Tests.xcconfig */,
+			);
+			path = tvOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,69 +356,16 @@
 /* Begin XCBuildConfiguration section */
 		24314EA824D7568600B06F9C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24ABECD225600CDC003514FF /* Debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = B2M757K4LG;
-				ENABLE_PREVIEWS = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.danieltull.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,119 +373,52 @@
 		};
 		24314EA924D7568600B06F9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24ABECD325600CDC003514FF /* Release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = B2M757K4LG;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_PREVIEWS = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.danieltull.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		24314EAB24D7568600B06F9C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24ABECE225600CDC003514FF /* iOS Application.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = iOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
 		24314EAC24D7568600B06F9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24ABECE225600CDC003514FF /* iOS Application.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = iOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
 		24314EAE24D7568600B06F9C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24ABECC925600CDC003514FF /* macOS Application.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
 		24314EAF24D7568600B06F9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24ABECC925600CDC003514FF /* macOS Application.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				SDKROOT = macosx;
 			};
 			name = Release;
 		};
