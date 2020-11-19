@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,10 @@
 		24314EA524D7568600B06F9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24314E9024D7568400B06F9C /* ContentView.swift */; };
 		24314EA624D7568600B06F9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24314E9124D7568600B06F9C /* Assets.xcassets */; };
 		24314EA724D7568600B06F9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24314E9124D7568600B06F9C /* Assets.xcassets */; };
+		245938A72566C1D800A00FCB /* xXxprojectxXxKit in Frameworks */ = {isa = PBXBuildFile; productRef = 245938A62566C1D800A00FCB /* xXxprojectxXxKit */; };
+		245938A92566C1D800A00FCB /* xXxprojectxXxUI in Frameworks */ = {isa = PBXBuildFile; productRef = 245938A82566C1D800A00FCB /* xXxprojectxXxUI */; };
+		245938AB2566C1DD00A00FCB /* xXxprojectxXxKit in Frameworks */ = {isa = PBXBuildFile; productRef = 245938AA2566C1DD00A00FCB /* xXxprojectxXxKit */; };
+		245938AD2566C1DD00A00FCB /* xXxprojectxXxUI in Frameworks */ = {isa = PBXBuildFile; productRef = 245938AC2566C1DD00A00FCB /* xXxprojectxXxUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,7 @@
 		24314E9E24D7568600B06F9C /* xXxprojectxXx macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xXxprojectxXx macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24314EA024D7568600B06F9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24314EA124D7568600B06F9C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		245938A32566C1CC00A00FCB /*  */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ""; sourceTree = "<group>"; };
 		24ABECC125600CDC003514FF /* generate-version.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "generate-version.sh"; sourceTree = "<group>"; };
 		24ABECC325600CDC003514FF /* SPM Package Description.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "SPM Package Description.xcconfig"; sourceTree = "<group>"; };
 		24ABECC525600CDC003514FF /* macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = macOS.xcconfig; sourceTree = "<group>"; };
@@ -72,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				245938A92566C1D800A00FCB /* xXxprojectxXxUI in Frameworks */,
+				245938A72566C1D800A00FCB /* xXxprojectxXxKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				245938AD2566C1DD00A00FCB /* xXxprojectxXxUI in Frameworks */,
+				245938AB2566C1DD00A00FCB /* xXxprojectxXxKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +97,7 @@
 		24314E8924D7568400B06F9C = {
 			isa = PBXGroup;
 			children = (
+				245938A32566C1CC00A00FCB /*  */,
 				24ABECC025600CDC003514FF /* Configurations */,
 				24314E8E24D7568400B06F9C /* Shared */,
 				24314E9824D7568600B06F9C /* iOS */,
@@ -253,6 +263,8 @@
 			);
 			name = "xXxprojectxXx iOS";
 			packageProductDependencies = (
+				245938A62566C1D800A00FCB /* xXxprojectxXxKit */,
+				245938A82566C1D800A00FCB /* xXxprojectxXxUI */,
 			);
 			productName = "xXxprojectxXx (iOS)";
 			productReference = 24314E9624D7568600B06F9C /* xXxprojectxXx iOS.app */;
@@ -272,6 +284,8 @@
 			);
 			name = "xXxprojectxXx macOS";
 			packageProductDependencies = (
+				245938AA2566C1DD00A00FCB /* xXxprojectxXxKit */,
+				245938AC2566C1DD00A00FCB /* xXxprojectxXxUI */,
 			);
 			productName = "xXxprojectxXx (macOS)";
 			productReference = 24314E9E24D7568600B06F9C /* xXxprojectxXx macOS.app */;
@@ -453,6 +467,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		245938A62566C1D800A00FCB /* xXxprojectxXxKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = xXxprojectxXxKit;
+		};
+		245938A82566C1D800A00FCB /* xXxprojectxXxUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = xXxprojectxXxUI;
+		};
+		245938AA2566C1DD00A00FCB /* xXxprojectxXxKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = xXxprojectxXxKit;
+		};
+		245938AC2566C1DD00A00FCB /* xXxprojectxXxUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = xXxprojectxXxUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 24314E8A24D7568400B06F9C /* Project object */;
 }
