@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24314EA624D7568600B06F9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24314E9124D7568600B06F9C /* Assets.xcassets */; };
 		24314EA724D7568600B06F9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24314E9124D7568600B06F9C /* Assets.xcassets */; };
+		243FE76B2566C51200E0C5D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243FE7682566C50900E0C5D3 /* Assets.xcassets */; };
 		245938A72566C1D800A00FCB /* xXxprojectxXxKit in Frameworks */ = {isa = PBXBuildFile; productRef = 245938A62566C1D800A00FCB /* xXxprojectxXxKit */; };
 		245938A92566C1D800A00FCB /* xXxprojectxXxUI in Frameworks */ = {isa = PBXBuildFile; productRef = 245938A82566C1D800A00FCB /* xXxprojectxXxUI */; };
 		245938AB2566C1DD00A00FCB /* xXxprojectxXxKit in Frameworks */ = {isa = PBXBuildFile; productRef = 245938AA2566C1DD00A00FCB /* xXxprojectxXxKit */; };
@@ -24,6 +24,7 @@
 		24314E9E24D7568600B06F9C /* xXxprojectxXx macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xXxprojectxXx macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24314EA024D7568600B06F9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24314EA124D7568600B06F9C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		243FE7682566C50900E0C5D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		245938A32566C1CC00A00FCB /*  */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ""; sourceTree = "<group>"; };
 		248590022566C3B500AFD40B /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		2485900A2566C43200AFD40B /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
@@ -97,20 +98,11 @@
 			children = (
 				245938A32566C1CC00A00FCB /*  */,
 				24ABECC025600CDC003514FF /* Configurations */,
-				24314E8E24D7568400B06F9C /* Shared */,
 				24314E9824D7568600B06F9C /* iOS */,
 				24314E9F24D7568600B06F9C /* macOS */,
 				24314E9724D7568600B06F9C /* Products */,
 				24314EB124D7591700B06F9C /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		24314E8E24D7568400B06F9C /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				24314E9124D7568600B06F9C /* Assets.xcassets */,
-			);
-			path = Shared;
 			sourceTree = "<group>";
 		};
 		24314E9724D7568600B06F9C /* Products */ = {
@@ -126,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				248590022566C3B500AFD40B /* App.swift */,
+				243FE7682566C50900E0C5D3 /* Assets.xcassets */,
 				24314E9924D7568600B06F9C /* Info.plist */,
 			);
 			path = iOS;
@@ -135,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				2485900A2566C43200AFD40B /* App.swift */,
+				24314E9124D7568600B06F9C /* Assets.xcassets */,
 				24314EA024D7568600B06F9C /* Info.plist */,
 				24314EA124D7568600B06F9C /* macOS.entitlements */,
 			);
@@ -330,7 +324,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24314EA624D7568600B06F9C /* Assets.xcassets in Resources */,
+				243FE76B2566C51200E0C5D3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
