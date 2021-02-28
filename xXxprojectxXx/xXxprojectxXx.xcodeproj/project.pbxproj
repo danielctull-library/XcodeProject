@@ -19,9 +19,9 @@
 
 /* Begin PBXFileReference section */
 		24314E9124D7568600B06F9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		24314E9624D7568600B06F9C /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24314E9624D7568600B06F9C /* xXxprojectxXx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xXxprojectxXx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24314E9924D7568600B06F9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		24314E9E24D7568600B06F9C /* macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24314E9E24D7568600B06F9C /* xXxprojectxXx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xXxprojectxXx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24314EA024D7568600B06F9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24314EA124D7568600B06F9C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		243FE7682566C50900E0C5D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -108,8 +108,8 @@
 		24314E9724D7568600B06F9C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				24314E9624D7568600B06F9C /* iOS.app */,
-				24314E9E24D7568600B06F9C /* macOS.app */,
+				24314E9624D7568600B06F9C /* xXxprojectxXx.app */,
+				24314E9E24D7568600B06F9C /* xXxprojectxXx.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -259,7 +259,7 @@
 				245938A82566C1D800A00FCB /* xXxprojectxXxUI */,
 			);
 			productName = "xXxprojectxXx (iOS)";
-			productReference = 24314E9624D7568600B06F9C /* iOS.app */;
+			productReference = 24314E9624D7568600B06F9C /* xXxprojectxXx.app */;
 			productType = "com.apple.product-type.application";
 		};
 		24314E9D24D7568600B06F9C /* macOS */ = {
@@ -280,7 +280,7 @@
 				245938AC2566C1DD00A00FCB /* xXxprojectxXxUI */,
 			);
 			productName = "xXxprojectxXx (macOS)";
-			productReference = 24314E9E24D7568600B06F9C /* macOS.app */;
+			productReference = 24314E9E24D7568600B06F9C /* xXxprojectxXx.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -397,6 +397,7 @@
 			baseConfigurationReference = 24ABECE225600CDC003514FF /* iOS Application.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = iOS/Info.plist;
+				PRODUCT_NAME = xXxprojectxXx;
 			};
 			name = Debug;
 		};
@@ -405,6 +406,7 @@
 			baseConfigurationReference = 24ABECE225600CDC003514FF /* iOS Application.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = iOS/Info.plist;
+				PRODUCT_NAME = xXxprojectxXx;
 			};
 			name = Release;
 		};
@@ -414,6 +416,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				INFOPLIST_FILE = macOS/Info.plist;
+				PRODUCT_NAME = xXxprojectxXx;
 			};
 			name = Debug;
 		};
@@ -423,6 +426,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				INFOPLIST_FILE = macOS/Info.plist;
+				PRODUCT_NAME = xXxprojectxXx;
 			};
 			name = Release;
 		};
