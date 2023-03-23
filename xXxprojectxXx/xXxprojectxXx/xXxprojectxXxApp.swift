@@ -1,9 +1,8 @@
 
-import xXxprojectxXxUI
 import SwiftUI
 
 @main
-struct xXxprojectxXx: App {
+struct xXxprojectxXxApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

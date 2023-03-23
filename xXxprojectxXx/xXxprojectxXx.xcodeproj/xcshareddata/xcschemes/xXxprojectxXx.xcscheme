@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1320"
+   LastUpgradeVersion = "1420"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
-                     BlueprintIdentifier = "24314E9D24D7568600B06F9C"
+                     BlueprintIdentifier = "6571DB3429CC96FC00CB6BB9"
                      BuildableName = "xXxprojectxXx.app"
-                     BlueprintName = "macOS"
+                     BlueprintName = "xXxprojectxXx"
                      ReferencedContainer = "container:xXxprojectxXx.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
@@ -32,9 +32,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "24314E9D24D7568600B06F9C"
+               BlueprintIdentifier = "6571DB3429CC96FC00CB6BB9"
                BuildableName = "xXxprojectxXx.app"
-               BlueprintName = "macOS"
+               BlueprintName = "xXxprojectxXx"
                ReferencedContainer = "container:xXxprojectxXx.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -62,9 +62,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "24314E9D24D7568600B06F9C"
+            BlueprintIdentifier = "6571DB3429CC96FC00CB6BB9"
             BuildableName = "xXxprojectxXx.app"
-            BlueprintName = "macOS"
+            BlueprintName = "xXxprojectxXx"
             ReferencedContainer = "container:xXxprojectxXx.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -79,9 +79,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "24314E9D24D7568600B06F9C"
+            BlueprintIdentifier = "6571DB3429CC96FC00CB6BB9"
             BuildableName = "xXxprojectxXx.app"
-            BlueprintName = "macOS"
+            BlueprintName = "xXxprojectxXx"
             ReferencedContainer = "container:xXxprojectxXx.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
