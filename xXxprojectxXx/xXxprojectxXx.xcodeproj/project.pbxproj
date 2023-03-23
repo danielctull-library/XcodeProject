@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		654CEEE329CC9CBF0081392A /* Infoplist.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 654CEEE229CC9CBF0081392A /* Infoplist.xcconfig */; };
+		654CEF0329CCA2640081392A /* xXxprojectxXxKit in Frameworks */ = {isa = PBXBuildFile; productRef = 654CEF0229CCA2640081392A /* xXxprojectxXxKit */; };
+		654CEF0529CCA2640081392A /* xXxprojectxXxUI in Frameworks */ = {isa = PBXBuildFile; productRef = 654CEF0429CCA2640081392A /* xXxprojectxXxUI */; };
 		6571DB3929CC96FC00CB6BB9 /* xXxprojectxXxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6571DB3829CC96FC00CB6BB9 /* xXxprojectxXxApp.swift */; };
-		6571DB3B29CC96FC00CB6BB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6571DB3A29CC96FC00CB6BB9 /* ContentView.swift */; };
 		6571DB3D29CC96FD00CB6BB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6571DB3C29CC96FD00CB6BB9 /* Assets.xcassets */; };
 		6571DB4129CC96FD00CB6BB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6571DB4029CC96FD00CB6BB9 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -61,7 +62,6 @@
 		654CEEE229CC9CBF0081392A /* Infoplist.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Infoplist.xcconfig; sourceTree = "<group>"; };
 		6571DB3529CC96FC00CB6BB9 /* xXxprojectxXx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xXxprojectxXx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6571DB3829CC96FC00CB6BB9 /* xXxprojectxXxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xXxprojectxXxApp.swift; sourceTree = "<group>"; };
-		6571DB3A29CC96FC00CB6BB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6571DB3C29CC96FD00CB6BB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6571DB3E29CC96FD00CB6BB9 /* xXxprojectxXx.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = xXxprojectxXx.entitlements; sourceTree = "<group>"; };
 		6571DB4029CC96FD00CB6BB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -72,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				654CEF0529CCA2640081392A /* xXxprojectxXxUI in Frameworks */,
+				654CEF0329CCA2640081392A /* xXxprojectxXxKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,12 +187,20 @@
 			path = Multiplatform;
 			sourceTree = "<group>";
 		};
+		654CEF0129CCA2640081392A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6571DB2C29CC96FC00CB6BB9 = {
 			isa = PBXGroup;
 			children = (
 				654CEEAF29CC9A680081392A /* Configurations */,
 				6571DB3729CC96FC00CB6BB9 /* xXxprojectxXx */,
 				6571DB3629CC96FC00CB6BB9 /* Products */,
+				654CEF0129CCA2640081392A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -206,7 +216,6 @@
 			isa = PBXGroup;
 			children = (
 				6571DB3829CC96FC00CB6BB9 /* xXxprojectxXxApp.swift */,
-				6571DB3A29CC96FC00CB6BB9 /* ContentView.swift */,
 				6571DB3C29CC96FD00CB6BB9 /* Assets.xcassets */,
 				6571DB3E29CC96FD00CB6BB9 /* xXxprojectxXx.entitlements */,
 				6571DB3F29CC96FD00CB6BB9 /* Preview Content */,
@@ -238,6 +247,10 @@
 			dependencies = (
 			);
 			name = xXxprojectxXx;
+			packageProductDependencies = (
+				654CEF0229CCA2640081392A /* xXxprojectxXxKit */,
+				654CEF0429CCA2640081392A /* xXxprojectxXxUI */,
+			);
 			productName = xXxprojectxXx;
 			productReference = 6571DB3529CC96FC00CB6BB9 /* xXxprojectxXx.app */;
 			productType = "com.apple.product-type.application";
@@ -293,7 +306,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6571DB3B29CC96FC00CB6BB9 /* ContentView.swift in Sources */,
 				6571DB3929CC96FC00CB6BB9 /* xXxprojectxXxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,6 +381,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		654CEF0229CCA2640081392A /* xXxprojectxXxKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = xXxprojectxXxKit;
+		};
+		654CEF0429CCA2640081392A /* xXxprojectxXxUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = xXxprojectxXxUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6571DB2D29CC96FC00CB6BB9 /* Project object */;
 }
